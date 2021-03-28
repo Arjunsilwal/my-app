@@ -3,9 +3,28 @@
 }
 
 .App-name {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
   color:brown;
+}
+
+.Box {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.About {
+  font-family: "Times New Roman", Times, serif;
+  padding: 25px 50px 75px 100px;
+
+}
+.p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
