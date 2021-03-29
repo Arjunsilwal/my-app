@@ -1,5 +1,6 @@
 import React from 'react'
 import "../App.css";
+import Header from './Header';
 function About() {
     return (
         <div className="About">
@@ -10,7 +11,7 @@ function About() {
                 My problem solving capability is always a topic of praise 
                 among my friends. If you want to know more about me, Here is my Linkdin Profile...
                 <br />
-                <a href="https://www.linkedin.com/in/arjun-silwal-234a76164/">Linkdin</a>
+                <a href="https://www.linkedin.com/in/arjun-silwal-234a76164/">LINKDIN</a>
                 </p>
             </div>
     )
