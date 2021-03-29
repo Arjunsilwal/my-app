@@ -81,3 +81,10 @@ li a:hover {
     transform: rotate(360deg);
   }
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
