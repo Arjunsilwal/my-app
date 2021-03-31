@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.App-name {
+.Author-name {
   height: 10vmin;
   pointer-events: none;
-  color:brown;
+  color:white;
 }
 
 ul {
@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: grey;
 }
 
 li {
@@ -96,6 +96,6 @@ li a:hover {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color: gold;
   color: white;
 }

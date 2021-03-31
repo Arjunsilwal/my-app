@@ -1,19 +1,31 @@
 import React from 'react'
 import "../App.css";
 
-function Header(props) {
+
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
+
+ export default function Header() {
     return (
-        <div>
+                <Router>
             <ul>
-                <li><a className="active" href="#home">Home</a></li>
-                <li><a href="#">Info</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li className="li-about"><a  href="#about">About</a></li>
-                <h2 className= "App-name">{props.name}</h2>
+                <li>
+                    <Link to= "/">Home</Link>
+                </li>
+                <li>
+                    <Link to= "/info">Info</Link>
+                </li>
+                <li>
+                    <Link to= "/contacts">Contact</Link>
+                </li>
+                <li className="li-about" > 
+                    <Link to= "/about">About</Link>
+                </li>
+                  <h2 className= "Author-name">ARJUN SILWAL</h2>
+                
             </ul>
             <h2>"A Code Enthusiast"</h2>
-        </div>
+                </Router>
     )
 }
 
-export default Header
