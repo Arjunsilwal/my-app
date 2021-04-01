@@ -2,12 +2,12 @@ import React from 'react'
 import "../App.css";
 
 
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
  export default function Header() {
     return (
-                <Router>
+        <div>
             <ul>
                 <li>
                     <Link to= "/">Home</Link>
@@ -25,7 +25,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
                 
             </ul>
             <h2>"A Code Enthusiast"</h2>
-                </Router>
+        </div>
     )
 }
 

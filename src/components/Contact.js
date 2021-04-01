@@ -1,11 +1,13 @@
 import React from 'react'
 import Header from './Header'
 import  "module";
+import Footer from './Footer';
 
 function Contact() {
     return (
         <div>
-            <Header name ="Arjun Silwal" />
+            <Header/>
+            <Footer />
         </div>
     )
 }

@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
 
 function Info() {
     return (
         <div>
-            <h2>Info here</h2>
+            <Header />
+            <Footer />
         </div>
     )
 }
