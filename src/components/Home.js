@@ -1,12 +1,12 @@
 import React from 'react'
 import About from './About'
-import Footer from './Footer'
-import Header from './Header'
+import Order from './Order'
 
 function Home() {
     return (
         <div>
             <About />
+            <Order />
         </div>
     )
 }
