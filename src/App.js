@@ -1,7 +1,4 @@
 import './App.css';
-//import About from "./components/About";
-//import Footer from './components/Footer';
-//import Header from './components/Header';
 import { BrowserRouter as Router,Switch, Route  } from "react-router-dom";
 import Info from "./components/Info"
 import About from './components/About';
