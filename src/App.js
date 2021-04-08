@@ -4,6 +4,7 @@ import Info from "./components/Info"
 import About from './components/About';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import Form from './components/Form';
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/form">
+            <Form />
           </Route>
         </Switch>
       </Router>

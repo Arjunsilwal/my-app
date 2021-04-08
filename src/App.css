@@ -81,6 +81,11 @@ li a:hover {
     transform: rotate(360deg);
   }
 }
+img {
+  border-radius: 100%;
+  width:10%;
+  height: auto;
+}
 .button {
   background-color: grey;
   border: none;
