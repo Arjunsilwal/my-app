@@ -24,7 +24,6 @@ import { Link } from "react-router-dom";
                   <h2 className= "Author-name">ARJUN SILWAL</h2>
                 
             </ul>
-            <h2>"A Code Enthusiast"</h2>
         </div>
     )
 }

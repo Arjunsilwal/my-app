@@ -2,17 +2,6 @@ import React, {useState} from 'react'
 import Header from './Header'
 
 function Form() {
-    const [state, setState] = useState({value:''})
-
-   function handleChange(e){
-    setState({value:e.target.value})
-    }
-
-    function handleSubmit(e){
-        e.preventDefault();
-        alert("Name is submitted: " + state.value)
-    }
-
     const formStyle = {
         form : {
             borderRadius: "5px",
@@ -40,16 +29,45 @@ function Form() {
           }
 
     }
+    const [state, setState] = useState({value:''})
+    const [content, setContent] = useState({value:''})
+
+    function handleChange(e){
+     setState({value:e.target.value})
+     }
+
+     function changeContent(e){
+        setContent({value:e.target.value})
+    }
+ 
+     function handleSubmit(e){
+         e.preventDefault();
+         alert("Name is submitted: " + state.value + " Your content is: " + content.value)
+     }
 
     return (
         <div>
             <Header />
-            <form onSubmit={handleSubmit} style={formStyle.form}>
+            <form onSubmit={handleSubmit}
+            style={formStyle.form}>
             <label>
                 Name:
-                <input type="text" style={formStyle.text} value={state.value} onChange={handleChange} />
+                <input type="text"
+                 style={formStyle.text}
+                 value={state.value}
+                 placeholder="Name Here"
+                  onChange={handleChange} />
+                Type Your Order Request Here:
+                <textarea type="textarea" rows="10" cols="30"
+                placeholder="Content Here"
+                value={content.value}
+                onChange= {changeContent}
+                style={formStyle.text}  />
                 </label>
-                <input style={formStyle.button} type="submit" value="Submit"/>
+                <input  
+                 style={formStyle.button}
+                 type="submit" 
+                 value="Submit"/>
             </form>
         </div>
     )

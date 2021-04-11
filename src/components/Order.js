@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Order() {
     const style ={
-        width: "100%;",
+        width: "100%",
         border: "15px",
         padding: '50px',
         margin: '20px'
