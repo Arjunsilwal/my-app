@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import "../App.css";
-import { useParams } from 'react-router-dom'
+//import { useParams } from 'react-router-dom'
 import useData from '../services/useData'
 //import { Link } from "react-router-dom";
 
@@ -15,8 +15,7 @@ function Statement() {
     const url= `https://jsonplaceholder.typicode.com/users/`;
     //fetch(url).then(resp => resp.json()).then(data => setdata(data))
 
-
-
+    
     return (
         <div>
             <h2>"A Code Enthusiast"</h2>

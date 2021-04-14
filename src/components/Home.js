@@ -1,5 +1,6 @@
 import React from 'react'
-//import About from './About'
+import "../App.css";
+import About from './About'
 import Footer from './Footer'
 import Header from './Header'
 import Order from './Order'
@@ -7,12 +8,15 @@ import Statement from './Statement'
 
 function Home() {
     return (
-        <div>
+        <body>
+            <div>
             <Header />
             <Statement />
+            <About />
             <Order />
             <Footer />
         </div>
+        </body>
     )
 }
 

@@ -3,6 +3,7 @@ import "../App.css";
 import Footer from './Footer'
 import Header from './Header'
 
+
 function About() {
     const style = {
         margin: '16px',
@@ -13,8 +14,9 @@ function About() {
     }
     return (
         <div>
-            <Header />
             <div style={style} className="About">
+            <img src="/images/arjun.jpeg" alt="Nature" className="responsive" width="600" height="400" />
+
             <p >I am a continuous learner. I spend most of my time by learning
                 and doing different coding practices. I have already collected more than 
                 10 certification courses. I have gained certificate of python, python in datastructure,
@@ -25,7 +27,6 @@ function About() {
                 <a href="https://www.linkedin.com/in/arjun-silwal-234a76164/">LINKEDIN</a>
             </p>
             </div>
-            <Footer />
             </div>
     )
 }
