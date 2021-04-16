@@ -30,6 +30,7 @@ function Info() {
             <p>Age: {info.age}</p>
             <p>Role: {info.role}</p>
             {inputBox}
+            <Footer />
         </div>
     )
 }
