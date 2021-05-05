@@ -9,7 +9,7 @@ import Statement from './Statement'
 function Home() {
     return (
         <body>
-            <div>
+            <div className="container-fluid">
             <Header />
             <Statement />
             <More />

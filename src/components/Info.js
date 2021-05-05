@@ -22,14 +22,16 @@ function Info() {
         return `A continuous learner who always spends time by studying different programming language`
     }
     return (
-        <div>
+        <div className="container-fluid">
             <Header />
+            <div>
             <h2>Full Name: {getFullName()}</h2>
             <h3>Location:{getAddress()}</h3>
             <p>{more()}</p>
             <p>Age: {info.age}</p>
             <p>Role: {info.role}</p>
             {inputBox}
+            </div>
             <Footer />
         </div>
     )

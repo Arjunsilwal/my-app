@@ -17,8 +17,8 @@ function Statement() {
 
     
     return (
-        <div>
-            <h2>"A Code Enthusiast"</h2>
+        <div className="jumbotron">
+            <h3>Arjun Silwal</h3>
         </div>
     )
 }

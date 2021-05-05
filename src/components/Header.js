@@ -7,24 +7,23 @@ import { Link } from "react-router-dom";
 
  export default function Header() {
     return (
-        <div>
-            <ul>
-                <li>
-                    <Link to= "/">Home</Link>
-                </li>
-                <li>
-                    <Link to= "/info">Info</Link>
-                </li>
-                <li>
-                    <Link to= "/contacts">Contact</Link>
-                </li>
-                <li className="li-about" > 
-                    <Link to= "/about">About</Link>
-                </li>
-                  <h2 className= "Author-name">ARJUN SILWAL</h2>
-                
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+    <Link className="nav-link" to= "/">Home</Link>
+    </li>
+    <li class="nav-item">
+    <Link className="nav-link" to= "/info">Info</Link>
+    </li>
+    <li class="nav-item">
+    <Link className="nav-link" to= "/contacts">Contact</Link>
+    </li>
+    <li class="nav-item">
+    <Link className="nav-link" to= "/about">About</Link>
+    </li>
+  </ul>
+</nav>
+        
     )
 }
 

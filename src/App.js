@@ -12,21 +12,11 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/info">
-            <Info />
-          </Route>
-          <Route path="/contacts">
-            <Contact />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/form">
-            <Form />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/info" component={Info} />
+          <Route path="/contacts" component={Contact} />
+          <Route path="/about" component={About} />
+          <Route path="/form" component={Form} />
         </Switch>
       </Router>
         </div>
